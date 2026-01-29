@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Darlin's Portfolio</title>
+</head>
+<body>
+
+    <header id="nav-bar">
+<div id="logo">
+    <img src="img/image copy 3.png" alt="Header logo">
+</div>
+<nav>
+<ul id="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+    </header>
+
+    <main>
+    <section id="about">
+        <h1>Darlin Holguin</h1>
+<h3> Aspiring software engineer learning HTML, CSS, and Javascript.</h3>
+
+<div class="hero-buttons">
+  <a href="#contact" class="btn btn-primary">
+    Contact Me <span class="arrow">→</span>
+  </a>
+
+  <a href="#projects" class="btn btn-outline">
+    View Projects <span class="arrow">→</span>
+  </a>
+</div>
+    </section>
+
+    <section id="about-card" class="card">
+        <div id="about-box">
+            <h2>About Me</h2>
+            <p> 
+           I’m a passionate software engineer who’s in it for the love of the game—especially video games. 
+           I’m naturally inquisitive and enjoy problem-solving.
+        </p>
+        <p>
+           What drives me is the pursuit of success and the constant chase for new learning experiences.
+        </p>
+        <p>
+           I was born on 2006 in Domincan Republic and came to the U.S more specifically New York when I was 6 and have been living here since.
+            </p>
+        </div>
+
+        <div id="skills-box">
+            <h2>Skills</h2>
+
+        <ul id="skills-list">
+            <li class="skill">HTML</li>
+            <li class="skill">CSS</li>
+            <li class="skill">JavaScript</li>
+            <li class="skill">Git/GitHub</li>
+        </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <section id="project-grid">
+        <article class="project-card card">
+            <img src="img/image.png" alt="Picture of project">
+            <div class="project-description">
+                <h3>Portfolio Website</h3>
+                <p>I built my own personal portfolio website where I showcased myself and my projects.</p>
+                <p class="project-tech">HTML | CSS</p>
+            </div>
+        </article>
+
+        <article class="project-card card">
+            <img src="img/image copy.png" alt="Picture of project">
+            <div class="project-description">
+                <h3>CLI Application</h3>
+                <p>I coded my own application where the user can utilize the command line interface in order to play a game of rock,paper, scissors.</p>
+                <p class="project-tech">Javascript</p>
+            </div>
+        </article>
+
+</section>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+
+  <section id="contact-box" class="card">
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <label class="contact-method" for="name">Name</label>
+      <input id="name" name="name" type="text" placeholder="Your name" required>
+
+      <label class="contact-method" for="email">Email</label>
+      <input id="email" name="email" type="email" placeholder="your@email.com" required>
+
+      <label class="contact-method" for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Write your message..." required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+
+    <div class="contact">
+      <span class="contact-method">GitHub:</span>
+      <a class="contact-info" href="https://github.com/DarlinHolguin">
+        github.com/DarlinHolguin
+      </a>
+    </div>
+
+    <div class="contact">
+      <span class="contact-method">Email:</span>
+      <a class="contact-info" href="mailto:darlinholguin123@gmail.com">
+        darlinholguin123@gmail.com
+      </a>
+    </div>
+
+    <div class="contact">
+  <span class="contact-method">LinkedIn:</span>
+  <a class="contact-info"
+     href="https://www.linkedin.com/in/darlin-holguin-102a573a7"
+     target="_blank" rel="noopener">
+    linkedin.com/in/darlin-holguin
+  </a>
+</div>
+  </section>
+</section>
+
+    </main>
+    
+    <footer id="site-footer">
+  <p class="footer-left">Built by Darlin Holguin</p>
+  <p class="footer-right">© 2026 All rights reserved.</p>
+    </footer>
+</body>
+</html>
