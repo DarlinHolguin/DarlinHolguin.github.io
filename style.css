@@ -56,7 +56,7 @@ body {
     radial-gradient(circle, rgba(61, 45, 164, 0.25) 2px, transparent 2px);
 
   background-size: 40px 40px, 70px 70px, 110px 110px;
-  background-position: 0 0, 15px 25px, 40px 60px;
+  /* background-position: 0 0, 15px 25px, 40px 60px; */
 }
 
 body {
@@ -414,6 +414,30 @@ h3 {
   animation-delay: 0.35s;
 }
 
+.project-links {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.project-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid #3d2da4;
+  background-color: #3d2da4;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.project-links a:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+  transform: translateY(-2px);
+}
+
 /* Keyframes */
 @keyframes fadeUp {
   from {
@@ -434,3 +458,4 @@ h3 {
     transform: translateY(0);
   }
 }
+
